@@ -1,0 +1,57 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArcGIS JavaScript Tutorials: Create a Starter App</title>
+ 
+  <link href="https://fonts.googleapis.com/css?family=Delius&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://js.arcgis.com/4.11/esri/css/main.css">
+  <script src="https://js.arcgis.com/4.11/"></script>
+  <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+  <script src="Javascript/script.js"></script>
+</head>
+<body>
+  <!--<header class="Migración_de_Tiburones">
+        <center><h1 >Migración de Tiburones en el Océano Pacífico</h1></center>
+  </header>-->
+  <input type="checkbox" class="checkbox" id="check">
+    <label class="menu" for="check">|||</label>
+    <div class="left-panel">
+      <ul>
+          <li>Datos Curiosos</li>
+          <li><strong>Tiburón Ballena</strong></li>
+          <li><p>El tiburón ballena es el pez más grande que existe en el planeta, puede llegar a medir hasta 20 metros de longitud y pesar hasta 34 Toneladas.</p></li> 
+          <li><p>Las manchas que presentan los tiburones ballena presenta un patrón único que permite su identificación individual, es como su huella digital ya que no se modifica con el crecimiento.</p></li>
+          <!--<li><p>El Tiburón Ballena es muy dócil y gentil, y no se asusta cuando se le aproximan buzos o nadadores.</p></li>
+          <li><p>La distribución del tiburón ballena abarca todas las aguas tropicales (excepto el Mar Mediterráneo), es decir, aquellas aguas que se encuentran entre ambos trópicos del globo terráqueo, y que se identifican por sus temperaturas cálidas.</p></li>
+          <li><p>El tiburón ballena está en la lista roja de la UICN clasificada como “vulnerable a la extinción“. En esta categoría, encontramos a los animales que se espera que el tamaño de su población, disminuya en un 30% en los próximos 10 a 100 años.</p></li>-->
+          <li><strong>Tiburón Martillo</strong></li>
+          <li><p>La UICN ha incluido dos especies de tiburón martillo en su Lista Roja como amenazadas. En zonas costeras los juveniles y adultos son capturados por trasmallos y líneas de fondo de pescadores artesanales.</p></li>
+          <li><p>Son capturados solo para obtener sus aletas, el resto del cuerpo no tiene ningún valor comercial. . Se les cortan las aletas mientras aún están vivos y luego los devuelven al agua donde mueren desangrados.</p></li>
+          <!--<li><p>Se ha incrementado la pesca de neonatos y juveniles. Se capturan ejemplares que aún no han tenido la oportunidad de reproducirse al menos una vez, con lo que la especie pierde la capacidad de reponerse.</p></li>
+          <li><p>Hay 9 especies de tiburón martillo. La más grande es el tiburón martillo gigante, que puede medir hasta 6 metros y pesar casi media tonelada. </p></li> 
+          <li><p>Los tiburones existen desde antes que los dinosaurios. El estudio de los fósiles encontrados de los antecesores de los tiburones modernos indican que aparecieron hace mas de 400 millones de años, 100 millones de años antes que los dinosaurios.
+          </p></li>-->
+      </ul>
+    </div>
+  <input id="cerrar-modal" name="modal" type="radio" /> 
+  <label for="cerrar-modal"> Aceptar </style></label>
+  <div class="modalP" id="modal">
+    <div id="contenido"> 
+     
+
+      <img src="img/tiburonSF.png" width="220" height="240" style="position: relative; top:0px; left:40px ">
+      
+      <img src="img/mensajeSF.png" width="320" height="200" style="position: relative; top:-10px; left:0px">
+      
+      <p>Encontrarás las rutas de los tiburones martillo y tiburones ballena </p>
+      
+    </div>
+  </div>
+  <!--<div class="anterior"></div>-->
+  <div id="viewDiv">
+   <iframe width='100%' height='640px' src='https://geogeeks2.maps.arcgis.com/apps/TimeAware/index.html?appid=2f00c83043824f749d5b29c7e1fecf60' frameborder='0' scrolling='no'></iframe>
+  </div>
+</body>
+</html>
